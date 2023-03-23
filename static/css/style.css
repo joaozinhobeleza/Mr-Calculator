@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=Orbitron:wght@600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #100a63, #026b1c);
+    height: 100vh;
+}
+
+.calculator-body {
+    justify-content: center;
+    width: 330px;
+    height: 350px;
+    background: #212121;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+}
+
+.calculator-header {
+    text-align: center;
+}
+
+input {
+    margin: 10px;
+    padding: 3px;
+    text-align: right;
+    font-size: 20px;
+    font-family: 'Chakra Petch', sans-serif;
+    border-radius: 10px;
+    border: none;
+    background-color: #1A1A1A;
+    color: #FFF;
+}
+
+button {
+    width: 60px;
+    margin: 5px;
+    cursor: pointer;
+    font-family: 'Chakra Petch', sans-serif;
+    border: 2px solid #1A1A1A;
+    color: #FFF;
+    font-size: 30px;
+    appearance: none;
+    background-color: transparent;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    border-radius: 10px;
+}
+
+button:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+button:active {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(0px);
+}
+
+.secundary {
+    background-color: #001aad;
+}
+
+.danger {
+    background-color: #b00404;
+}
+
+.attention {
+    background-color: #02b389;
+}
+
+.bigButton {
+    width: 135px;
+}
+
+.keys {
+    text-align: center;
+}
